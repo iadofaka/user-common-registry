@@ -3,11 +3,13 @@ package com.linked.systems.registry.ManagerImpl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.linked.systems.registry.DAO.PositionsCatalogDAO;
 import com.linked.systems.registry.Manager.PositionsCatalogManager;
 import com.linked.systems.registry.model.PositionsCatalog;
 
+@Service
 public class PositionsCatalogManagerImpl implements PositionsCatalogManager {
 	
 	@Autowired

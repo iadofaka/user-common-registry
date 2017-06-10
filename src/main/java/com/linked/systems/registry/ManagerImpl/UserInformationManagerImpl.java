@@ -3,11 +3,13 @@ package com.linked.systems.registry.ManagerImpl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.linked.systems.registry.DAO.UserInformationDAO;
 import com.linked.systems.registry.Manager.UserInformationManager;
 import com.linked.systems.registry.model.UserInformation;
 
+@Service
 public class UserInformationManagerImpl implements UserInformationManager {
 	
 	@Autowired
